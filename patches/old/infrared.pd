@@ -1,0 +1,11 @@
+#N canvas 0 25 1920 1027 12;
+#X obj 199 181 clip~ 0 1;
+#X obj 199 100 lop~ 15;
+#X obj 199 137 sfapdlib/scalesiglin~ 0.35 0.7 0 1;
+#X obj 197 55 adc~ 3;
+#X text 519 110 The infrared sensor signal is lowpass-filtered to account for noise \, scaled and clipped to avoid values outside the range of 0-1.;
+#X obj 199 230 outlet~;
+#X connect 0 0 5 0;
+#X connect 1 0 2 0;
+#X connect 2 0 0 0;
+#X connect 3 0 1 0;

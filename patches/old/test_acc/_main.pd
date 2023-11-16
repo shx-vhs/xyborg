@@ -1,0 +1,2 @@
+#N canvas 0 25 880 747 12;
+#X obj 379 469 accelerometer_right;

@@ -1,0 +1,15 @@
+#N canvas 0 25 546 747 12;
+#X obj 127 246 *~;
+#X obj 79 202 expr 1 - $f1;
+#X obj 58 247 *~;
+#X obj 77 301 *~ 1;
+#X obj 103 113 inlet fade;
+#X obj 127 72 inlet~ wet;
+#X obj 36 71 inlet~ dry;
+#X connect 0 0 3 0;
+#X connect 1 0 2 1;
+#X connect 2 0 3 0;
+#X connect 4 0 1 0;
+#X connect 4 0 0 1;
+#X connect 5 0 0 0;
+#X connect 6 0 2 0;
