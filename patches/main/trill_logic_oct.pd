@@ -1,9 +1,10 @@
-#N canvas 179 204 450 300 12;
+#N canvas 1 26 1280 747 12;
 #X obj 62 181 change;
 #X obj 58 98 inlet;
 #X obj 64 246 outlet;
 #X obj 64 207 sel 1 0;
 #X obj 60 138 > 0.02;
+#X text 44 26 This patch is basically the same as the trill_logic patch but with a higher threshold value and sending only one bang.;
 #X connect 0 0 3 0;
 #X connect 1 0 4 0;
 #X connect 3 0 2 0;
