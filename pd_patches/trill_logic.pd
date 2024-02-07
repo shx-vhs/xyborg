@@ -1,0 +1,15 @@
+#N canvas 179 204 884 300 12;
+#X obj 62 181 change;
+#X obj 58 98 inlet;
+#X obj 62 260 outlet;
+#X obj 62 221 sel 1 0;
+#X text 160 129 Comparing the incoming value with a set value. Either send 0 or 1;
+#X text 162 42 The self-made key sensors operate in a small range between 0.01 and 0.02 due to the shape of the self-made sensors and the cable length. 0.013 as a threshold value works the best for now to supress random triggers but also register when key is pressed.;
+#X text 157 169 The change object only forwards values when they change. This makes sure that notes are triggered only once;
+#X text 160 219 Sending bangs for attack and release;
+#X obj 61 142 > 0.013;
+#X connect 0 0 3 0;
+#X connect 1 0 8 0;
+#X connect 3 0 2 0;
+#X connect 3 1 2 0;
+#X connect 8 0 0 0;
