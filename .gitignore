@@ -1,3 +1,26 @@
 
 patches/old/.DS_Store
 .DS_Store
+*.DS_Store
+._README.md
+pd_patches/.__main.pd
+pd_patches/._acc_left.pd
+pd_patches/._acc_right.pd
+pd_patches/._buttons.pd
+pd_patches/._note.pd
+pd_patches/._pitch_left.pd
+pd_patches/._pitch_right.pd
+pd_patches/._selector~.pd
+pd_patches/._trill_init.pd
+pd_patches/._trill_logic.pd
+pd_patches/._trill_logic_oct.pd
+pd_patches/._trill_routing.pd
+pd_patches/._vibrato~.pd
+pd_patches/._wavefolder_prediction.pd
+pd_patches/._wavefolder_train.pd
+pd_patches/._ws.singlefold~.pd
+technical_documentation/._Assembly Guide.pdf
+technical_documentation/._circuit layout.png
+technical_documentation/._dimensions.JPG
+technical_documentation/._hardware_layout.png
+technical_documentation/._signal_flow.png
